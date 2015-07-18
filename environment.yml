@@ -1,0 +1,11 @@
+name: ep-blaze
+dependencies:
+    - blaze
+    - mongodb
+    - boto
+    - sqlite
+    - ipython
+    - ipython notebook
+    - odo
+    - yaml
+    - dask

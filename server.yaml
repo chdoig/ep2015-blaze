@@ -1,0 +1,9 @@
+iriscsv:
+  source: iris.csv
+flowersdb:
+  source: sqlite:///flowers.db
+irisjson:
+  source: iris.json
+  dshape: "var * {name: string, amount: float64}"
+irismongo:
+  source: mongodb://localhost/mydb::iris
